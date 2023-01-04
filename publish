@@ -1,0 +1,5 @@
+#!/bin/sh
+
+hugo
+
+rsync -avz public/ debian@vpn:/var/www/mateuszreszka.xyz/html/

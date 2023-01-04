@@ -1,0 +1,13 @@
+baseURL: 'https://mateuszreszka.xyz'
+languageCode: 'en-us'
+title: "Mateusz Reszka's Personal Blog"
+theme: 'mr'
+copyright: "This work is not licensed."
+
+author:
+  name: 'Mateusz Reszka'
+
+params:
+  theme_config:
+    appearance: "black"
+    back_home_text: "Home"

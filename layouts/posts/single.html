@@ -1,0 +1,15 @@
+{{ define "main" }}
+    <header class="content__header">
+        <h1>{{ .Title }}</h1>
+    </header>
+    <div class="content__body">
+        {{ .Content }}
+    </div>
+    <footer class="content__footer"></footer>
+    {{ if or (.Params.author) (.Site.Author.name) }}
+        <p>
+            {{ if ( .Params.author ) }}By {{ .Params.author }}{{ end }}
+            {{ if and (.Site.Author) ( not .Params.author ) }}By {{ .Site.Author.name }}{{ end }}
+        </p>
+    {{ end }}
+{{ end }}

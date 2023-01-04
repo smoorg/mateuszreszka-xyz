@@ -1,0 +1,6 @@
+{{ if and ( $.Site.Params.theme_config.back_home_text ) ( ne ( $.Page.Permalink ) ( $.Site.BaseURL ) ) }}
+    <a href="{{ "/" | relURL }}">{{ $.Site.Params.theme_config.back_home_text }}</a>
+{{ end }}
+{{ if and ( .Parent ) ( ne ( $.Parent.RelPermalink ) "/" ) }}
+    <a href="{{ $.Parent.RelPermalink }}" style="text-transform:capitalize;">{{ .Parent.File.ContentBaseName }}</a>
+{{ end }}
