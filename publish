@@ -2,4 +2,5 @@
 
 hugo
 
-rsync -avz public/ debian@vpn:/var/www/mateuszreszka.xyz/html/
+rsync -avz --delete public/ debian@vpn:/var/www/mateuszreszka.xyz/html/
+rsync -avz --delete public/ debian@vpn:/var/gemini/

@@ -1,7 +1,7 @@
 baseURL: 'https://mateuszreszka.xyz'
 languageCode: 'en-us'
 title: "Mateusz Reszka's Personal Blog"
-theme: 'mr'
+theme: "mr"
 copyright: "This work is not licensed."
 
 author:
@@ -11,3 +11,36 @@ params:
   theme_config:
     appearance: "black"
     back_home_text: "Home"
+
+mediaTypes:
+  text/gemini:
+    suffixes:
+      - "gmi"
+
+outputFormats:
+  GEMINI:
+    name: GEMINI
+    isPlainText: true
+    isHTML: false
+    mediaType: text/gemini
+    protocol: "gemini://"
+    permalinkable: true
+  GEMINI_RSS:
+    baseName: "feed"
+    mediaType: "application/rss+xml"
+    isPlainText: false
+
+outputs:
+  home: 
+    - HTML
+    - RSS
+    - GEMINI
+    - GEMINI_RSS
+  page: 
+    - HTML
+    - GEMINI
+  section: 
+    - HTML
+    - GEMINI
+    - RSS
+    - GEMINI_RSS

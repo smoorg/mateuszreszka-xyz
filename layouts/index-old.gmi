@@ -1,0 +1,28 @@
+# Mateusz Reszka's website
+
+Hi! Welcome to my page. I am a software developer, musician and
+GNU/Linux enthusiast. Here will be stored various links and content
+related to me and my activity.
+
+=> posts/ My blog posts
+=> cv/ My virtual curriculum vitae
+=> https://github.com/smoorg You can find my dotfiles and scripts there
+=> https://linkedin.com/in/mateuszreszka My LinkedIn profile
+=> music/ Music and bands I was playing as a bassist.
+=> contact/ Contact info.
+
+
+{{ $content := .RawContent -}}
+{{ $content := $content | replaceRE `#### ` "### " -}}
+{{ $content := $content | replaceRE `\n- (.+?)` "\n$1" -}}
+{{ $content := $content | replaceRE `\n(\d+). (.+?)` "\n* $2" -}}
+{{ $content := $content | replaceRE `\[\^(.+?)\]:?` "" -}}
+{{ $content := $content | replaceRE `<br/??>` "\n" -}}
+{{ $content := $content | replaceRE `\[(.+?)\]\((.+?)\)` "=> $2 $1 -"}}
+{{ $content := $content | replaceRE `<a .*href="(.+?)".*>(.+?)</a>` "=> $1 $2" -}}
+{{ $content := $content | replaceRE `\sgemini://(\S*)` " [gemini://$1](gemini://$1)" -}}
+{{ $content := $content | replaceRE `{{ < youtube (.+?) >}}` "=> https://www.youtube.com/watch?v=$1 YouTube Video link to $1" -}}
+{{ $content := $content | replaceRE "([^`])<.*?>([^`])" "$1$2" -}}
+{{ $content := $content | replaceRE `\n\n!\[.*\]\((.+?) \"(.+?)\"\)` "\n\n=> $1 Image: $2" -}}
+{{ $content := $content | replaceRE `\n\n!\[.*]\((.+?)\)` "\n\n=> $1 Embedded Image: $1" -}}
+{{ $content }}

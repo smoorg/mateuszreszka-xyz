@@ -1,3 +1,4 @@
+
 html {
     font-family: "JetBrains Mono";
     background-color: #1b1b1b;
@@ -13,9 +14,18 @@ body {
     justify-content:space-between;
 }
 
+/* At the top level of your code */
 div#content {
-    width: 600px;
+  padding: 1rem 1rem;
+  width: auto;
+}
+
+@media screen and (min-width: 850px) {
+div#content {
+    max-width: 800px;
     margin: 0 auto;
+  padding: 1rem 3rem;
+}
 }
 
 a {
@@ -38,14 +48,14 @@ footer {
 
 /* To be extracted from theme soon */
 li:before { 
-    content: '\2010';
+    /*content: '\2010';*/
     margin-left: -20px;
     margin-right: 10px;
 } 
 
 li {
     margin: 5px 0;
-    list-style-type: none;
+    /*list-style-type: none;*/
 }
 
 th {
@@ -56,3 +66,17 @@ td {
     vertical-align: baseline;
 }
 
+code {
+    padding: 2px 4px;
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+pre > code {
+    padding: 0px
+}
+
+pre {
+    padding: 16px;
+}
