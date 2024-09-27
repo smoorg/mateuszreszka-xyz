@@ -1,7 +1,7 @@
 {{ if or (.Params.author) (.Site.Params.Author.name) }}
 
 {{ if ( .Params.author ) }}
-By {{ .Params.author }}
+By {{ .Params.Author.name }}
 {{ end }}
 
 {{ if and (.Site.Params.Author) ( not .Params.author ) }}

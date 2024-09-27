@@ -1,3 +1,5 @@
 <footer>
-    <span>Copyright Ⓒ  <a href="mailto:mateusz@mateuszreszka.xyz">Mateusz Reszka</a>, 2021-2023</span>
+{{ if and (.Site.Author) }}
+    <span>Copyright Ⓒ  <a href="mailto:{{ .Site.Author.email }}">{{ .Site.Author.name }}</a>, 2021-2024</span>
+{{ end }}
 </footer>

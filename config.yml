@@ -3,9 +3,9 @@ languageCode: 'en-us'
 title: "Mateusz Reszka's Personal Blog"
 theme: "mr"
 copyright: "This work is not licensed."
-
 author:
   name: 'Mateusz Reszka'
+  email: 'mateusz@mateuszreszka.xyz'
 
 params:
   theme_config:
@@ -44,3 +44,16 @@ outputs:
     - GEMINI
     - RSS
     - GEMINI_RSS
+
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true  # default is false
+    renderer:
+      unsafe: true  # default is false
+  highlight:
+    style: manni  # default is monokai
+module:
+  imports:
+    - path: 'github.com/hugomods/images'

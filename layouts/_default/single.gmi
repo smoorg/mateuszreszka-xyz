@@ -1,2 +1,5 @@
-{{ define "main" }}
-{{ end }}
+# {{ .Title }}
+
+{{- $content := .RawContent -}}
+{{- $content = $content | replaceRE `\!\[(.+?)\]\((.+?)\)` "=> $2 Image: $1" }}
+{{ $content }}

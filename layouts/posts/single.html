@@ -5,10 +5,8 @@
     <div class="content__body">
         {{ .Content }}
     </div>
-    {{ if or (.Params.author) (.Site.Params.Author.name) }}
-        <p>
-            {{ if ( .Params.author ) }}By {{ .Params.author }}{{ end }}
-            {{ if and (.Site.Params.Author) ( not .Site.Params.author ) }}By {{ .Site.Params.Author.name }}{{ end }}
+        <p>By 
+            {{ partial "mailto.html" . }}
+            {{ if ( .Params.date ) }} {{ time.Format "2006-02-01 15:04:05 MST" .Params.date }} {{end}}
         </p>
-    {{ end }}
 {{ end }}
