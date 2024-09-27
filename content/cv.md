@@ -3,290 +3,141 @@ title: Mateusz Reszka
 draft: false
 ---
 
-## Abstract
+- [Linkedin](https://linkedin.com/in/mateuszreszka)
+- [e-mail](mailto:contact@lonewolf-solutions.pl)
 
-Hi. I am a software developer of various languages (C#, SQL, Bash, JavaScript, TypeScript, C) and GNU/Linux enthusiast.
+## About me
 
-Throughout my carreer I was introduced with many industries - to name a few: marine, marketing, fintech, banking, silicon, blokchain startups. Being open minded to so much projects, people and cultures made me understand different approaches and values towards software design and development across the globe.
+I am a software developer of various languages (Go, .NET C#, C, SQL, Bash, JavaScript, TypeScript) and GNU/Linux enthusiast. Throughout my career I was introduced with many industries - to name a few: marine, marketing, fintech, banking, silicon, newspapers publishing and block-chain startups. Being open minded to so much projects, people and cultures made me understand different approaches and values towards software design and development across the globe.
 
-I am open to new experiences and customers around the world. I speak fluently in English.
+Looking for opportunities in Go, Typescript, React & DevOps.
 
-## Contact
+---
 
-You can contact me over:
+<!--## Experience Summary-->
 
-- [linkedin](https://linkedin.com/in/mateuszreszka)
-- [e-mail](mailto:contact\@lonewolf-solutions.pl)
-
-------------------------------------------------------------------------
-
-## Education
-
-### Management Engineering, Gdansk University of Technology
-
-Course was introducing general concepts of project, company and product
-management as well as few programming classes such as SQL and Java.
-
-|-|-|
-|-|-|
-|Graduation year|2015|
-|Faculty|Management and Economy|
-|Field|Management Engineering|
-|Specialisation|IT Technologies in engineering|
-
-------------------------------------------------------------------------
-
-## Certificates
-
-Scrum.org - Professional Scrum Master I - [link](https://www.scrum.org/user/440775)
-
-------------------------------------------------------------------------
+<!--| Tech                                    | Time Periods                           | Years<br>overall     |-->
+<!--| --------------------------------------- | -------------------------------------- | -------------------- |-->
+<!--| Git                                     | 04.2015 - now                          | 9                    |-->
+<!--| JS/TS                                   | 04.2015 - 11.2022                      | 7                    |-->
+<!--| .NET                                    | 04.2015 - 04.2021                      | 6                    |-->
+<!--| MS SQL                                  | 04.2015 - 04.2021                      | 6                    |-->
+<!--| Entity<br>Framework                     | 04.2015 - 04.2021                      | 6                    |-->
+<!--| Bash                                    | 2020 - now                             | 4                    |-->
+<!--| Docker                                  | 05.2021 - now                          | 3                    |-->
+<!--| Angular                                 | 09.2017 - 12.2019 &nbsp;&nbsp;         | ~2                   |-->
+<!--| React                                   | 01.2020 - 06.2020<br>05.2021 - 11.2022 | ~2                   |-->
+<!--| MongoDB                                 | 12.2022 - now                          | 1.5                  |-->
+<!--| Golang                                  | 12.2022 - now                          | 1.5                  |-->
+<!--| Ruby <br>v2.5-2.7                       | 12.2022 - now                          | 1.5                  |-->
+<!--| AWS Cloud<br> ECS, SQS, <br>EventBridge | 12.2022 - now                          | 1.5                  |-->
+<!--| PostgreSQL                              | 05.2021 - 09.2021                      | 0.5                  |-->
+<!--| NodeJS                                  | 05.2021 - 09.2021                      | 0.5                  |-->
+<!--| **Protocol/<br>Standard**               | **Time Periods**                       | **Years<br>overall** |-->
+<!--| Rest API                                | 04.2015 - now                          | 9                    |-->
+<!--| Swagger/<br>OpenAPI                     | 09.2017 - 01.2019<br>07.2020 - 04.2021 | 2                    |-->
+<!--| Open ID <br>Connect<br>(Auth0)          | 09.2017 - 01.2019<br>07.2020 - 04.2021 | 2                    |-->
+<!--| gRPC                                    | 12.2022 - now                          | 1.5                  |-->
+<!--| GraphQL                                 | 05.2021 - 09.2021                      | 0.5                  |-->
+<!--| **Tool**                                | **Time Periods**                       | **Years<br>overall** |-->
+<!--| Neovim                                  | 2020 - now                             | 4                    |-->
+<!--| VS 2022                                 | 04.2015 - 04.2021                      | 6                    |-->
+<!--| Jenkins                                 | 11.2020 - 04.2021                      | 0.5                  |-->
+<!--| Linux                                   | 2020 - now                             | ~4                   |-->
 
 ## Experience
-
-Overall commercial experience throughout my career\
-\
-+7 years:
-
-- Git
-- .NET / .NET Core
-- Postman
-- Entity Framework
-- MS SQL
-- JavaScript/Typescript
-
-+3 years:
-
-- Linux usage
-    - Bash shell
-    - GNU Utils (cat, sed, gawk, grep, curl) 
-    - other console tools: jq, fzf, rgrep, wget dmenu
-- Docker
-- Postgres SQL
-- AngularJS
-- ReactJS
-- NodeJS
-
-+1 year:
-
-- Go
-- Kubernetes
-
-Less than 1 year:
-
-- Jenkins
-- Google Cloud Console
-- Amazon Web Services
-
 
 ### Readly AB (12.2022 - currently)
 
 I am lead developer of a small team of Golang and Ruby developers. The team maintains few microservices related to crucial part of the system - payments and subscriptions.
-
-Tech stack: AWS (ECS, SQS, EventBridge), Datadog, Go, MongoDB, Ruby, Rails
-
-Tools used: Neovim, tmux, Gitlab, Git, Docker
-
-### Emphie Solutions (05.2021 - 11.2022)
-
-#### Lead Software Developer
-
-I was team leader / senior developer participating in various projects for Emphie Solution\'s clients as well as internal Chessgrow.com development. I also did a few live lectures based on the project tech stack to share knowledge across Emphie employees about new tools we discovered along the way, such as introduction to hasura.io. Due to high demand I also conducted few presentations about introduction to ReactJS and dive deep into it.
-
-Projects I was participating in:
-
-|Title|Description|
-|-|----|
-|Chessgrow|Development of redesigned chessboard crafted for custom needs of Chessgrow puzzle sets. <br />**Tech stack**: JavaScript|
-|Callstream|Project to design call center flows and manage users, numbers and other information. I designed front-end and guided team throughout OAuth documentation and how to communicate with it. <br />**Tech stack**: Angular, NodeJS, Bootstrap, AWS Cognito, OAuth|
-|Del\'Art| NFT market for physical art based on ethereum blockchain and customsmart contracts. <br />**Tech stack**: React, Web3, Metamask, Solidity, NodeJS, Hasura, GraphQL, TailwindCSS, Bootstrap4 |
-|Brandtech.io|Marketing platform SaaS to track revenue of certain marketing campaing assets. Asset\'s IP ownership information is tracked by blokchain metadata in order to be future proof.<br /> **Tech stack**: React, Solidity, NodeJS, OpenAPI, TailwindCSS|
-
-Tools used:
-
--   Jetbrains Webstorm
--   Neovim
--   Git
--   Docker
-
-------------------------------------------------------------------------
-
-### Luxoft (07.2020 - 04.2021)
-
-#### Line Manager
-
-I was deputy line manager of a small team of 5 devops and developers working as Luxoft contractors for Software Infrastructure Team at AMD.
-
-Another part of my job was to participate in HR processes as tech recruiter and validate candidate\'s soft and tech skills. 
-
-I was also responsible for overall communication with AMD managers with feedback from technical interviews, periodical team performance calls and so on.
-
-#### Senior Full-Stack Engineer (.NET Core / Angular 11)
-
-Development of web applications in Angular and various API integrations including websockets and service bus systems for the Software Infrastructure team at AMD. On top of that I was also responsible for Jenkins pipelines based on sshd, bash and powershell, communication with production machines hosted on both Windows Server and Linux.\
 \
-Tools used:
+Tech stack: AWS (ECS, SQS, EventBridge), Datadog, Go, MongoDB, Ruby on Rails
 
--   Visual Studio 2019
--   Resharper
--   Jetbrains Rider
--   Jetbrains Webstorm
--   Git
+Tools used: Linux, (bash, grep, openssh, tmux), Bugsnag, Datadog, Docker, Git, Gitlab, Neovim, Postman
 
-Tech stack:
+---
 
--   .NET Core 2.1
--   Entity Framework Core
--   SignalR
--   Angular 11
--   d3.js
--   Bootstrap
--   OAuth / Open ID Connect & SAML
--   IIS
--   SSHD
--   Github Actions
--   Jenkins
--   Swagger
+### Emphie Solutions (05.2021 - 11.2022) - Lead Software Developer
 
-------------------------------------------------------------------------
+I was team leader / senior developer participating in various projects as well as internal Chessgrow.com development.
 
-### DNV GL (01.2020 - 06.2020)
+| Project      | Description                                                                                                                                                                                  |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Chessgrow    | Development of redesigned chessboard for Chessgrow puzzle sets.                                                                                                                              |
+| Callstream   | Project to design call center flows and manage users, numbers and other information. <br />**Tech stack**: Angular, NodeJS, Bootstrap, AWS Cognito, OAuth                                    |
+| Del\'Art     | NFT market for physical art based on ethereum blockchain and custom smart-contracts. <br />**Tech stack**: React, Web3, Metamask, Solidity, NodeJS, Hasura, GraphQL, TailwindCSS, Bootstrap4 |
+| Brandtech.io | Marketing platform SaaS to track revenue of certain marketing campaing assets. <br /> **Tech stack**: React, Solidity, NodeJS, OpenAPI, TailwindCSS                                          |
 
-#### Full-Stack .NET Developer
+Tools used: JetBrains Webstorm, Neovim, Git, Docker
+
+---
+
+### Luxoft (07.2020 - 04.2021) - Line Manager & Full-Stack Engineer
+
+I was deputy line manager of a small team of 5 devops. I was also a developer of web applications in Angular and .NET REST API for the Software Infrastructure team at AMD.\
+\
+Tools used: Visual Studio 2019, Resharper, Jetbrains Rider, Jetbrains Webstorm, Git, Postman\
+Tech stack: .NET Core 2.1, Entity Framework Core, Angular 11, d3.js, Open ID Connect, IIS, sshd, Github Actions, Jenkins, Swagger
+
+---
+
+### DNV GL (01.2020 - 06.2020) - Full-Stack .NET Developer
 
 Development and maintenance marine industry software used to: maintain
 ship fleet, store documentation, plan the cruise, maintain crew members
 data.\
 \
-Tools used:
+Tools used: Azure DevOps, Visual Studio 2019, Resharper, Visual Studio Code, Postman, Git
+Tech stack: React 16+, Windows Presentation Foundation (WPF), WinForms, ASP.NET WebAPI 2
 
--   Azure DevOps
--   Visual Studio 2019
--   Resharper
--   Visual Studio Code
--   Postman
--   Git
+---
 
-Tech stack:
+### Banqsoft (02.2019 - 12.2019) - Full-Stack .NET Developer
 
--   React 16+
--   Windows Presentation Foundation (WPF)
--   WinForms
--   ASP.NET WebAPI 2
-
-------------------------------------------------------------------------
-
-### Banqsoft (02.2019 - 12.2019)
-
-#### Full-Stack .NET Developer
-
-Fintech applications for banks and leasing companies. I was responsible
-to design and develop solutions for our customers, provide demo
-sessions, gather direct feedback from customers, create test cases.\
+Fintech applications for banks and leasing companies.\
 \
-Tools used:
+Tools used: Azure Devops, Visual Studio 2019, Postman, MS SQL Express, Git,\
+Tech stack: Angular 7, KnockoutJS, ASP.NET WebAPI 2, ASP.NET MVC,
 
--   Azure Devops
--   Visual Studio 2019
--   Postman
--   MS SQL Express
--   Git
+---
 
-Tech stack:
+### Adare International (09.2017 - 01.2019) - Full-Stack .NET Developer
 
--   Angular 7
--   KnockoutJS
--   ASP.NET WebAPI 2
--   ASP.NET MVC
-
-------------------------------------------------------------------------
-
-### Adare International (09.2017 - 01.2019)
-
-#### Full-Stack .NET Developer
-
-Marketing and sales software for Adare International customers. Multiple
-modules that were used by our clients for various purposes like place
-orders, propose new products, budget marketing projects and many
-others.\
+Marketing and sales software for Adare International customers.\
 \
-Tools used:
+Tools used: Azure DevOps, Visual Studio 2017, Visual Studio Code, Postman, Telerik Fiddler, Git, SVN\
+Tech stack: AngularJS (1.x), ASP.NET WebAPI 2, Swagger/OpenAPI, Entity Framework 6, Open ID Connect
 
--   Azure DevOps
--   Visual Studio 2017
--   Visual Studio Code
--   Postman
--   Telerik Fiddler
--   Git
--   SVN
+---
 
-Technology stack:
+### UST Global Poland (04.2015 - 08.2017) - Full-Stack .NET Developer
 
--   AngularJS (1.x)
--   ASP.NET MVC 4 & 5
--   ASP.NET WebAPI 2
--   Autofac
--   FluentValidation
--   AutoMapper
--   Swagger/OpenAPI
--   Entity Framework 6
--   OAuth / Open ID Connect
-
-------------------------------------------------------------------------
-
-### UST Global Poland (04.2015 - 08.2017)
-
-#### Full-Stack .NET Developer
-
-Development and maintenance of bug-tracking software for Intel
-Technology Poland. Web based ASP.NET MVC app, WinForms and MS SQL
-database (including triggers and stored procedures)\
+Development and maintenance of bug-tracking software for Intel Technology Poland.\
 \
-Tools used:
+Tools used: Visual Studio 2015, MS SQL Express, SQL Profiler, Postman, Git\
+Tech stack: jQuery, JQueryUI, KnockoutJS, ASP.NET WinForms, ASP.NET WebAPI 2, .NET 2.0, 3.5, LinQ, Entity Framework, MS SQL
 
--   Visual Studio 2015
--   MS SQL Express
--   SQL Profiler
--   Postman
--   Git
+---
 
-Technology stack:
+---
 
--   jQuery
--   JQueryUI
--   KnockoutJS
--   ASP.NET WinForms
--   ASP.NET WebAPI 2
--   .NET 2.0, 3.5
--   LinQ
--   Entity Framework
--   MS SQL
+## Education
 
-------------------------------------------------------------------------
+### Management Engineering, Gdansk University of Technology
 
-### Project Management Institute Poland Chapter (11.2014 - 08.2015)
+Course was introducing general concepts of project, company and product management as well as few programming classes such as SQL and Java.
 
-#### Scrum Master in English Camp (03.2015 - 8.2015)
+|                 |                                |
+| --------------- | ------------------------------ |
+| Graduation year | 2015                           |
+| Faculty         | Management and Economy         |
+| Field           | Management Engineering         |
+| Specialisation  | IT Technologies in engineering |
 
-Work in Agile Scrum methodology at program project group. The team was
-responsible for organise events and entertainment for kids during the
-camp.\
-\
-My responsibilities:
+---
 
--   keep the flow of project group tasks
--   backlog management & refinement
--   conduct retrospective meetings
+## Certificates
 
-#### Volunteer in English Camp (11.2014 - 03.2015)
+Scrum.org - Professional Scrum Master I - [link](https://www.scrum.org/user/440775)
 
-Work at fundraising project group. I was responsible for gaining funds
-needed to organise the camp. The English Camp are for children growing
-up in orphanages, foster families and families with low financial
-status.\
-\
-My responsibilities:
-
--   gaining sponsors
--   organise community with student organisations
--   organize charity rock concert
+---
