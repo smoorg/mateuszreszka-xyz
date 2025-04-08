@@ -1,11 +1,11 @@
-{{ if or (.Params.author) (.Site.Author.name) }}
+{{ if or (.Params.author) (.Site.Params.Author.name) }}
 
 {{ if ( .Params.author ) }}
 By {{ .Params.author }}
 {{ end }}
 
-{{ if and (.Site.Author) ( not .Params.author ) }}
-By {{ .Site.Author.name }}
+{{ if and (.Site.Params.Author) ( not .Params.author ) }}
+By {{ .Site.Params.Author.name }}
 {{ end }}
 
 {{ end }}

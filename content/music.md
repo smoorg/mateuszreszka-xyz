@@ -1,6 +1,6 @@
 ---
 title: Music
-date: 2020-08
+date: 2020-08-03
 draft: false
 ---
 

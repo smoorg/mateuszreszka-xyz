@@ -5,10 +5,10 @@
     <div class="content__body">
         {{ .Content }}
     </div>
-    {{ if or (.Params.author) (.Site.Author.name) }}
+    {{ if or (.Params.author) (.Site.Params.Author.name) }}
         <p>
             {{ if ( .Params.author ) }}By {{ .Params.author }}{{ end }}
-            {{ if and (.Site.Author) ( not .Params.author ) }}By {{ .Site.Author.name }}{{ end }}
+            {{ if and (.Site.Params.Author) ( not .Site.Params.author ) }}By {{ .Site.Params.Author.name }}{{ end }}
         </p>
     {{ end }}
 {{ end }}
