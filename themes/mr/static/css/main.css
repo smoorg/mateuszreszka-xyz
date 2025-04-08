@@ -75,8 +75,10 @@ code {
 
 pre > code {
     padding: 0px
+    background-color: #000;
 }
 
 pre {
-    padding: 16px;
+    padding: 0px 16px;
+    background-color: #111 !important;
 }
