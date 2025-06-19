@@ -21,11 +21,11 @@ div#content {
 }
 
 @media screen and (min-width: 850px) {
-div#content {
-    max-width: 800px;
-    margin: 0 auto;
-  padding: 1rem 3rem;
-}
+    div#content {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 1rem 3rem;
+    }
 }
 
 a {
@@ -41,7 +41,6 @@ a:hover {
 }
 
 footer {
-    display: flex;
     justify-content: center;
     text-align: center;
 }
