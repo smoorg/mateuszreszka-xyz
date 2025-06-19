@@ -19,16 +19,16 @@ Later on cardboard boxes were replaced with plastic ones, especially on gaming m
 
 ## SaaS
 
-After a big success of Netflix and then Spotify, software as a service model got to the mainstream and became extremely popular. The model is indeed genius. You offer a service and if someone's willing to use it they have to pay. For every month of its use. There have been some ridiculous situations like when Autodesk became charging for their perpetual licensed products now moved to the internet more for yearly license than back in the day for perpetual one.
+After a big success of Netflix and then Spotify, software as a service model got to the mainstream and became extremely popular. The model is indeed genius. You offer a service and if someone's willing to use it they have to pay. For every month of its use. There have been some ridiculous situations like when Autodesk became charging for their (back then) new subscription based products more than for perpetual license back in the day.
 
-To be fair, one of the reasons these companies attempted to shift towards monthly billing was also the fact they were pirated a lot. Instead of fighting with distribution of their binaries, they would simply lock them if the computer had no access to the internet to confirm credentials.
+To be fair, one of the reasons these companies attempted to shift towards monthly billing was also the fact they were pirated a lot. Instead of fighting with distribution model of their binaries, they would simply lock the running software if the computer had no access to the internet to confirm eligibility of the license.
 
 Another reason was agile software methodologies that became a thing. Agile increment delivery was aligned with SaaS so well that the product was treated as buggy mess that will be fixed when priorities will let it be fixed.
 
 # Education
 
 Sad part about license revolution is that universities play big role in promoting these kind of companies. What I mean by that is, these companies offer free licenses for students. University then decides to run a class on it and legitimizes it in the eyes of students who do not know any better.
-In consequence employees look for people who know said program as they tend to be a majority of the market, or worse, said students demand a software they're proficient at which puts more expense on the employer. There are exceptions of the rule (blender I am looking at you!) but there's too few of them.
+In consequence employees look for people who know said program as they tend to be a majority of the market, or worse, said students demand a software they're proficient at which puts more expense on the employer. There are exceptions of the rule (blender I am looking at you!) but rare ones.
 
 ## Easy to fix; easy to break
 
@@ -38,11 +38,11 @@ Good example is Visual Studio. Microsoft was improving it every 4-5 years. But i
 
 ## I was done
 
-I told myself that I can no longer work on proprietary software. I was tired of rug pulls like discontinuations, changes of licenses, price increases and changes to adapt every 3 years. Fighting mentally on all that I found out about Linux.
+I told myself that I can no longer work on proprietary software. I was tired of rug pulls like discontinuations, changes of licenses, price increases and changes to adapt every 3 years. Fighting mentally on all that, I found out about Linux.
 
-One day I checked PayPal and it had neat feature, a summary how much do I pay to each vendor annually. I seen Spotify and my jaw dropped. I decided. I got rid of every subscription I had. Netflix - gone. I do not watch that much anyway. Spotify - gone, I just started buying albums on concerts, got myself mp4.
+One day I checked PayPal and it had neat feature, a summary how much do I pay to each vendor annually. I seen Spotify and my jaw dropped. I decided. I got rid of every subscription I had. Netflix - gone. I do not watch that much anyway. Spotify - gone, I just started buying albums on concerts, got myself mp4 player too.
 
-For DAW I choose Reaper for its simplicity and conservative changes to UI and feature set. I like to get back to it after a year or two and still know where I am.
+For DAW I choose Reaper for its simplicity and conservative changes to UI and feature set. I like to get back to it after a year or two and still know where I am. Although there's open source alternative called Ardour I had a few issues with it still. Maybe some day.
 
 ## Stability by forkability
 
