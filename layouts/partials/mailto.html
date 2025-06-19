@@ -1,11 +1,1 @@
-{{ if or (.Params.author) (.Site.Params.Author.name) }}
-
-    {{ if ( .Params.author ) }}
-    <a href="mailto:{{ .Params.author.email }}">{{ .Params.author.name }}</a>
-    {{ end }}
-
-    {{ if ( .Site.Params.Author ) }}
-    <a href="mailto:{{ .Site.Params.Author.email }}">{{ .Site.Params.Author.name }}</a>
-    {{ end }}
-
-{{ end }}
+<a href="mailto:mateusz@mateuszreszka.xyz">Mateusz Reszka</a>

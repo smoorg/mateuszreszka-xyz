@@ -1,11 +1,1 @@
-{{ if or (.Params.author) (.Site.Params.Author.name) }}
-
-{{ if ( .Params.author ) }}
-By {{ .Params.Author.name }}
-{{ end }}
-
-{{ if and (.Site.Params.Author) ( not .Params.author ) }}
-By {{ .Site.Params.Author.name }}
-{{ end }}
-
-{{ end }}
+Copyright © Mateusz Reszka <mateusz.reszka[at]mateuszreszka.xyz>, 2021-2025

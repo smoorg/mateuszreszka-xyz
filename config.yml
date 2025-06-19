@@ -1,4 +1,4 @@
-baseURL: 'https://mateuszreszka.xyz'
+baseURL: "https://mateuszreszka.xyz/"
 languageCode: 'en-us'
 title: "Mateusz Reszka's Personal Blog"
 theme: "mr"

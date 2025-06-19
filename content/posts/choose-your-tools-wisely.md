@@ -1,7 +1,7 @@
 ---
 title: Choose your tools wisely
 description: Story about necessary changes
-date: 2025-06-19
+date: "2025-06-19 21:30:04.000 +0200"
 draft: true
 ---
 
