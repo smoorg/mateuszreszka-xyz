@@ -1,6 +1,26 @@
 #!/bin/sh
 
+set -xe
+
+host=$1
 hugo
 
-rsync -avz --delete public/ debian@vpn:/var/www/mateuszreszka.xyz/html/
-rsync -avz --delete public/ debian@vpn:/var/gemini/
+echo "Copy html page..."
+rsync -rvz --no-perms --delete public/ $host:/var/www/mateuszreszka.xyz/html/
+echo "Copy gemini page..."
+rsync -rvz --no-perms --delete public/ $host:/var/gemini/
+
+#echo "Copy NGINX config..."
+#rsync -rvz --no-owner nginx $host:/etc/nginx/sites-available/mateuszreszka.xyz
+
+#ssh debian@vpn << EOF
+#src=/etc/nginx/sites-available/mateuszreszka.xyz
+#dest=/etc/nginx/sites-enabled/mateuszreszka.xyz
+#if [ ! -f \$dest ]; then 
+#    echo "Adding a new symlink..."
+#    ln -s \$src \$dest
+#fi
+#EOF
+
+echo "All Done!"
+
