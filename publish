@@ -3,7 +3,6 @@
 set -xe
 
 host=$1
-hugo
 
 echo "Copy html page..."
 rsync -rvz --no-perms --delete public/ $host:/var/www/mateuszreszka.xyz/html/

@@ -7,6 +7,6 @@
     </div>
         <p>
             By {{ partial "mailto.html" . }}
-            at {{ if ( .Params.date ) }} {{ time.Format "2006-01-02 15:04:05 MST" .Params.date }} {{end}}
+            at {{ if ( .Params.date ) }} {{ time.Format "2006-01-02 15:04:05 -0700" .Params.date }} {{end}}
         </p>
 {{ end }}

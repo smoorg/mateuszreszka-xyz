@@ -1,8 +1,8 @@
 ---
 title: Choose your tools wisely
 description: Story about necessary changes
-date: "2025-06-19 21:30:04.000 +0200"
-draft: true
+date: 2025-06-19 21:30:04.000 +0200
+draft: false
 ---
 
 Have you ever been affected by sudden change of your software of choose? Say, they ask for more money for your subscription, or the license has changed to what got unacceptable to you. Or, its UI got rewritten so much you no longer recognized it? Yeah, we all did. This article is about how to avoid that.
