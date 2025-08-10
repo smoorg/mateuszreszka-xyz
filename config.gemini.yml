@@ -17,20 +17,33 @@ params:
     appearance: "black"
     back_home_text: "Home"
 
+mediaTypes:
+  text/gemini:
+    suffixes:
+      - "gmi"
+
 outputFormats:
-  RSS:
-    baseName: "index"
+  GEMINI:
+    name: GEMINI
+    isPlainText: true
+    isHTML: false
+    mediaType: text/gemini
+    protocol: "gemini://"
+    permalinkable: true
+  GEMINI_RSS:
+    baseName: "feed"
     mediaType: "application/rss+xml"
+    isPlainText: false
 
 outputs:
   home: 
-    - html
-    - rss
+    - GEMINI
+    - GEMINI_RSS
   page: 
-    - html
+    - GEMINI
   section: 
-    - html
-    - rss
+    - GEMINI
+    - GEMINI_RSS
 
 markup:
   goldmark:

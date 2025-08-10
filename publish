@@ -1,13 +1,19 @@
 #!/bin/sh
 
-set -xe
 
 host=$1
+[ -z "$1" ] && echo "missing host" && exit 1
 
+set -xe
+rm -r public/
+hugo
 echo "Copy html page..."
-rsync -rvz --no-perms --delete public/ $host:/var/www/mateuszreszka.xyz/html/
+rsync -crvz --no-perms --delete public/ $host:/var/www/mateuszreszka.xyz/html/
+
+rm -r public/
+hugo --config config.gemini.yml
 echo "Copy gemini page..."
-rsync -rvz --no-perms --delete public/ $host:/var/gemini/
+rsync -crvz --no-perms --delete public/ $host:/var/gemini/
 
 #echo "Copy NGINX config..."
 #rsync -rvz --no-owner nginx $host:/etc/nginx/sites-available/mateuszreszka.xyz

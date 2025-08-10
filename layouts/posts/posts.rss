@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ .Site.Title | transform.XMLEscape | safeHTML }}</title>
+    <description>{{ i18n "description" }}</description>
+    <link>{{ .Permalink | safeURL }}</link>
+    <atom:link href="{{ .Permalink | safeURL }}" rel="self" type="application/rss+xml" />
+    {{- range .RegularPages }}
+    <item>
+      <title>{{ .Title | transform.XMLEscape | safeHTML }}</title>
+      <link>{{ .Permalink | safeURL }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700"  }}</pubDate>
+      <guid>{{ .Permalink | safeURL }}</guid>
+      <description>{{ .Summary | transform.XMLEscape | safeHTML }}</description>
+    </item>
+    {{ end }}
+  </channel>
+</rss>
