@@ -1,3 +1,5 @@
 <footer>
-    <span>Copyright © {{ partial "mailto.html" }} 2021-2025</span>
+{{ if and (.Site.Params.Author) }}
+    <span>Copyright ©  <a href="mailto:{{ .Site.Author.email }}">{{ .Site.Params.Author.name }}</a>, 2021-2025</span>
+{{ end }}
 </footer>
