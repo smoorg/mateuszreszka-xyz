@@ -2,12 +2,13 @@
 title: How bash 'if' really works?
 description: Article describes if statement behavior and GNU test lib
 date: 2022-04-20 00:00:01.224 +0100
-publish: draft
 ---
 
 You probably never think of it but behind every bash script stands tons of if-else statements which are responsible for whole script logic, as error gates or even correctness of operations. What if I told you that bash shell does not really interpret if statements itself? A test library serves that purpose and this is what this article is really about.
 
-## test library
+<!--more-->
+
+## Test library
 
 Testing library usually located at `/usr/bin/test` is a GNU util which is responsible for comparing expressions and values against each other. The result of the comparison is an `exit code` of `0` or `1`, depending whether the operation was successful. Here is an example that demonstrates that behavior:
 

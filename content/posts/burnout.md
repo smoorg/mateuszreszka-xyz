@@ -1,18 +1,17 @@
 ---
 title: Burnout
-date: 2022-06-22 00:00:01.224 +0100
+date: "2022-06-22 00:00:01 +0200"
 ---
 
-After 7 years in the IT industry as a programmer and team leader I felt
-really burnt out and couldn\'t explain why. This post will be a self
-reflection about that topic. It will also cover my early time in the
-industry.
+After 7 years in the IT industry as a programmer and team leader I felt really burnt out and couldn't explain why. This post will be a self reflection about that topic. It will also cover my early time in the industry.
+
+<!--more-->
 
 ## Background
 
 Since I remember I always was a self taught person. I used to love the
 music, extreme sports and anything related to improving your personal
-skills. I didn\'t find competition and team sports much fun. The self
+skills. I didn't find competition and team sports much fun. The self
 growth part drove me though. I loved freedom of such activities, the
 fact that there was no training plan or a single path to follow. You had
 to pick your own.
@@ -34,7 +33,7 @@ Institute](https://pmi.org.pl/oddzialy/gdansk/) who did their charity
 activity such as [English Camp](https://english-camp.pl/) using agile
 methodologies and act as asynchronous teams of volunteers. It was great
 to help others and learn at the same time and a pleasure to work and
-learn from experienced people. Unfortunately, in my case it didn\'t help
+learn from experienced people. Unfortunately, in my case it didn't help
 me much on finding my dream job.
 
 My adventure with programming started thanks to one of my friends in the
@@ -46,7 +45,7 @@ he earns. We drank a lot that night. I got frustrated a bit and started
 rambling about how hard it is to find something good in my field, and
 then he shared me with a book about C# programming language he learned
 at his computer science classes. And almost forced me to try to learn it
-saying it\'s not as hard as it seems. As hesitant as I was about my
+saying it's not as hard as it seems. As hesitant as I was about my
 capabilities back then (after all I had nothing to do with IT apart from
 gaming and using MS Office suite) I gave it a try.
 
@@ -55,7 +54,7 @@ developer, work there for a few months, a year max and trample my path
 towards project management in that company. I dreamed about a role such
 as Product Owner of Scrum Master as so much PMI members were into it.
 
-## So tell me, what\'s your experience?
+## So tell me, what's your experience?
 
 I started as many other young software developers, by applying to any
 company I could find on local job fairs. I tried to learn what they
@@ -140,7 +139,7 @@ refreshing to me. Marlena Chlost, CEO of that small software house was
 able to combine [charity](https://naszachatka.pl/), working on own
 [chess platform](https://chessgrow.com/) along with commercial activity
 of a software house for smaller companies and startups. Now THAT is a
-mission. Don\'t get me wrong, it\'s not as if big companies don\'t have
+mission. Don't get me wrong, it\'s not as if big companies don\'t have
 a mission from time to time. Its just another level when whole company
 is aware of what it is because you act on it personaly and you as a
 leader feel responsible for your crew, team and every single employer.
@@ -148,7 +147,7 @@ leader feel responsible for your crew, team and every single employer.
 [Emphie](https://emphie.com/) opened me onto the world of startups and
 young companies with very little of legacy code. I could really spread
 my wings and help with architecture, infrastructure, sometimes even
-mentoring of our customer\'s interns or give some presentation. It felt
+mentoring of our customer's interns or give some presentation. It felt
 truly awesome at times. I figured it was not the projects nor
 technologies I had problems with but a corporate culture. Also, the fact
 that startups need an external help as a kickup start at the beginning
@@ -162,7 +161,7 @@ kept me interested for the whole project period.
 
 ## Time off
 
-Although I had great fun in Emphie everything that\'s good comes to an
+Although I had great fun in Emphie everything that's good comes to an
 end. As much as I loved working with startups, I think my burnout got me
 regardless of that. Almost 2 full years of COVID restrictions and remote
 work at home made me adventurous, with strong desire to meet new people
@@ -173,12 +172,12 @@ things as well.
 
 Mental health is way more important than money. Keep that in mind while
 being stuck in your project or employer forever. If you feel no
-satisfaction today it is very likely that you will regret you haven\'t
+satisfaction today it is very likely that you will regret you haven't
 changed things you wanted sooner.
 
 I decided to give myself few months off and see how it goes. I also
 developed huge interest in Linux community, which made me realize that
 new challenges awaits right behind the corner. Maybe web is not for me
-after all? Maybe I should learn Go, C or Rust and see whether that\'s
+after all? Maybe I should learn Go, C or Rust and see whether that's
 for me? I guess I will revisit that blog at some point to give you
 follow up on that.

@@ -6,6 +6,8 @@ draft: false
 
 For past few years my default communication tool was matrix protocol created by matrix.org. It's great but let's be real, its not for everybody. Then, what can you expect your friends surely have? An e-mail account! The tricky part is, its old protocol with no data encryption by default. I will try to describe my latest journey with GPG, an OpenPGP standarized tool for encrypt and manage encryption keys.
 
+<!--more-->
+
 ## How to start?
 
 First, you need to understand the concept of gpg keys. A gpg key consists of private and public key. First one is only for you, former is to share with others wherever you can, usually on so called key servers. To properly encrypt e-mails with your peer you need to do few steps, which might not be that intuitive at start. After all, `man gpg` is huge and doesn't explain every usecase you might have.

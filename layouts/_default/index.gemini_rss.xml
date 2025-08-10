@@ -10,6 +10,7 @@
       <link>{{ (replace .Permalink "https://" "gemini://") | safeURL }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid>{{ (replace .Permalink "https://" "gemini://") | safeURL }}</guid>
+      <description>{{ .Summary }}</description>
     </item>
     {{ end }}
   </channel>

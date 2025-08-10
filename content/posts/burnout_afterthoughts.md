@@ -6,6 +6,8 @@ draft: false
 
 Almost two years ago I had some thoughts about my programming burnout, which I was facing at the time. I had no idea where it came from, and what to do. I was devastated. I promised some update so here it is.
 
+<!--more-->
+
 ## Understand yourself is the key
 
 It is complicated matter to understand yourself good enough to have the answer. Why do you feel that way? Why the feeling doesn't stop you for prolonged period of time?

@@ -5,7 +5,9 @@ date: 2025-06-19 21:30:04.000 +0200
 draft: false
 ---
 
-Have you ever been affected by sudden change of your software of choose? Say, they ask for more money for your subscription, or the license has changed to what got unacceptable to you. Or, its UI got rewritten so much you no longer recognized it? Yeah, we all did. This article is about how to avoid that.
+Have you ever been affected by sudden change of your software of choice? Say, they ask for more money for your subscription, or the license has changed to what got unacceptable to you. Or, its UI got rewritten so much you no longer recognized it? Yeah, we all did. This article is about how to avoid that.
+
+<!--more-->
 
 ## I miss boxes
 
@@ -28,7 +30,7 @@ Another reason was agile software methodologies that became a thing. Agile incre
 # Education
 
 Sad part about license revolution is that universities play big role in promoting these kind of companies. What I mean by that is, these companies offer free licenses for students. University then decides to run a class on it and legitimizes it in the eyes of students who do not know any better.
-In consequence employees look for people who know said program as they tend to be a majority of the market, or worse, said students demand a software they're proficient at which puts more expense on the employer. There are exceptions of the rule (blender I am looking at you!) but rare ones.
+In consequence employees look for people who know said program as they tend to be a majority of the market, or worse, said students demand a software they're proficient at which puts more expense on the employer. There are exceptions of the rule (i.e. blender) but rare ones.
 
 ## Easy to fix; easy to break
 
@@ -56,23 +58,34 @@ Then I realized something. The lowest retention of knowledge happens to open sou
 1. You can compile it and understand its code if you want
 1. Software changes when there are feature requests or bugs to fix. 
 
-Not to say OSS is not changing, sometimes it dramatically does. But generally its user focused. And you still can use some old version you liked forever. Generally OSS focuses on technology and improves. Companies focus on marketing. New thing for new reason is 'fresh' and 'interesting'.
+Not to say OSS is not changing, sometimes it dramatically does. But generally its user focused. And you still can use some old version of it you'd like. 
 
-## Development approach shift
+Generally OSS focuses on technology, features and improvements. Companies focus on how to sell their new 'better' thing. And it has to look 'fresh' and 'interesting', hence pointless run for modern UI and constant redesigning.
 
-Since I was talking about Visual Studio you probably figured I was C# developer. I was indeed. And I was so frustrated of the fact I lived through ASP.NET Core revolution. In short, Microsoft decided to leave .NET 4.7 and start over. After 3 versions of .NET Core that worked on Linux, they did another project to reintegrate these changes to original .NET naming convention and call them .NET 5. These were 2 large revolutions in the language in 4 years. I started questioning whether I want to learn new stuff every 3 years for the sake of it.
+Ideal software is actually terminal interface one. There's no reason to change its ugliness as you can't make it much better. Lazygit prooves there can be highly functional TUIs but generally you do not need much.
 
-After I switched to Linux on my personal PC being feed up with Windows 8 (and then 10 too at work) I worked on Jetbrains' Rider on a C# job I had so I could run things on both systems. In the meantime I was looking for the way to get out of the place I got myself into. 
+## My personal development approach shift
 
-I found myself in pure JS projects for a while and I loved the fact I didn't had to do anything fancy. Just FLOSS neovim, docker, terminal and node.js. Obviously, over time I got myself into framework war (company used mostly Angular, I did React) and JavaScript wasn't that fullfilling to me to spend a carreer in but, I decided to never look back on Microsoft.
+Since I was talking about Visual Studio you probably figured I was C# developer. And I was so frustrated of the fact I lived through ASP.NET Core revolution. In short, Microsoft decided to leave .NET 4.7 and start over. After 3 versions of .NET Core that worked on Linux, they did another project to reintegrate these changes to original .NET naming convention and call them .NET 5. These were 2 large revolutions in the language in 4 years. I started questioning whether I want to learn new stuff every 3 years for the sake of it.
 
-My demands for a new language were simple: 
+After I switched to Linux on my personal PC, being feed up with Windows 8 (and then 10, which I had to use at work) I worked on Jetbrains' Rider on a C# job. I had to so I could run same things on both systems. In the meantime I was looking for the way to get out of the place I got myself into. 
+
+Later, I found myself in pure TS/JS projects and I loved the fact I didn't had to do anything fancy. Nothing stopped me from using Linux. I could use pure FLOSS like neovim, docker, some terminal and node.js. 
+
+Obviously, over time I got myself into framework war (the company I worked for used mostly Angular, I did React) and JavaScript wasn't that fulfilling to me to spend a career in. However, I decided to never look back on Microsoft.
+
+I was looking for a better language for myself. Language where I could flourish but also wouldn't have to relearn every 3-5 years. My demands were simple: 
+
 - works on linux, 
-- slow change/no change, 
-- build static ELF executable, 
-- be open source friendly. 
+- slow change/no change, language is mature and as such rarely changes
+- builds static ELF executable, 
+- is open source friendly
 
-The obvious candidate was C but I was not ready for 'undefined behavior' part of the language. Maybe some day I'll pick up on it for POSIX development on some old standard like IEC 8898, just for fun. I started soft, with Golang and loved it since! Mainly for its well written documentation, making it easy to see library and even stdlib code. I have never seen such a seamless environment. Proudly work on Golang for alost 3 years at this point. I do pick up on zig too and its great for my small projects I am doing off hours!
+The obvious candidate was C but I was not ready for 'undefined behavior' part of the language. Maybe some day I'll pick up on it for POSIX development on some old standard like ISO/IEC 9899:19999, just for fun. 
+
+I started soft, with Golang and loved it since! Mainly for its well written documentation, making it easy like having entire source code for stdlib on the drive ready for debugging. I have never seen such a seamless environment of work. 
+
+I proudly work on Golang for alost 3 years at this point. I do pick up on zig too and its great for my small projects I am doing off hours.
 
 Next to programming languages I learned bash as well. The awesome part about it, you might use it in 15 years from now like nothing changed. I feel like this is time well put into a skill that will serve me for years to come.
 
@@ -80,8 +93,8 @@ Next to programming languages I learned bash as well. The awesome part about it,
 
 Over the years I trusted JetBrains software for the fact they allow for perpetual license keys. I believe they call it fallback license. You can use your version of CLion or whatnot from 2013 if you really want! As long as you paid for at least a full year. 
 
-Also Reaper, a DAW software. I remember using it back in 2013 and its look and feel is still very similar.
+I also use Reaper, a DAW software. I remember using it back in 2013 and its look and feel is still very similar.
 
 ## Conclusion
 
-Sanitize your tech stack. Choose software wisely. Learn bash for small automations.
+Sanitize your tech stack. Choose software wisely. Learn bash for small automations. Avoid software and languages that obsolete easily.

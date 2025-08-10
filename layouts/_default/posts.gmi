@@ -4,3 +4,5 @@
 {{ range .Pages }}
 => {{ .RelPermalink }} {{ .Title | plainify }}
 {{- end }}
+
+{{ partial "footer.gmi" . }}

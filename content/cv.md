@@ -65,7 +65,7 @@ I was team leader / senior developer participating in various projects as well a
 | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Chessgrow    | Development of redesigned chessboard for Chessgrow puzzle sets.                                                                                                                              |
 | Callstream   | Project to design call center flows and manage users, numbers and other information. <br />**Tech stack**: Angular, NodeJS, Bootstrap, AWS Cognito, OAuth                                    |
-| Del\'Art     | NFT market for physical art based on ethereum blockchain and custom smart-contracts. <br />**Tech stack**: React, Web3, Metamask, Solidity, NodeJS, Hasura, GraphQL, TailwindCSS, Bootstrap4 |
+| Del'Art     | NFT market for physical art based on ethereum blockchain and custom smart-contracts. <br />**Tech stack**: React, Web3, Metamask, Solidity, NodeJS, Hasura, GraphQL, TailwindCSS, Bootstrap4 |
 | Brandtech.io | Marketing platform SaaS to track revenue of certain marketing campaing assets. <br /> **Tech stack**: React, Solidity, NodeJS, OpenAPI, TailwindCSS                                          |
 
 Tools used: JetBrains Webstorm, Neovim, Git, Docker
