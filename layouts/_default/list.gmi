@@ -1,5 +1,3 @@
-{{ .Title }}
-{{ .Content}}
 {{ range .Pages }}
 => {{ .RelPermalink }} {{ .Title }}
-{{ end }}
+{{- end -}}

@@ -14,37 +14,6 @@ Looking for opportunities in Go, Typescript, React & DevOps.
 
 ---
 
-<!--## Experience Summary-->
-
-<!--| Tech                                    | Time Periods                           | Years<br>overall     |-->
-<!--| --------------------------------------- | -------------------------------------- | -------------------- |-->
-<!--| Git                                     | 04.2015 - now                          | 9                    |-->
-<!--| JS/TS                                   | 04.2015 - 11.2022                      | 7                    |-->
-<!--| .NET                                    | 04.2015 - 04.2021                      | 6                    |-->
-<!--| MS SQL                                  | 04.2015 - 04.2021                      | 6                    |-->
-<!--| Entity<br>Framework                     | 04.2015 - 04.2021                      | 6                    |-->
-<!--| Bash                                    | 2020 - now                             | 4                    |-->
-<!--| Docker                                  | 05.2021 - now                          | 3                    |-->
-<!--| Angular                                 | 09.2017 - 12.2019 &nbsp;&nbsp;         | ~2                   |-->
-<!--| React                                   | 01.2020 - 06.2020<br>05.2021 - 11.2022 | ~2                   |-->
-<!--| MongoDB                                 | 12.2022 - now                          | 1.5                  |-->
-<!--| Golang                                  | 12.2022 - now                          | 1.5                  |-->
-<!--| Ruby <br>v2.5-2.7                       | 12.2022 - now                          | 1.5                  |-->
-<!--| AWS Cloud<br> ECS, SQS, <br>EventBridge | 12.2022 - now                          | 1.5                  |-->
-<!--| PostgreSQL                              | 05.2021 - 09.2021                      | 0.5                  |-->
-<!--| NodeJS                                  | 05.2021 - 09.2021                      | 0.5                  |-->
-<!--| **Protocol/<br>Standard**               | **Time Periods**                       | **Years<br>overall** |-->
-<!--| Rest API                                | 04.2015 - now                          | 9                    |-->
-<!--| Swagger/<br>OpenAPI                     | 09.2017 - 01.2019<br>07.2020 - 04.2021 | 2                    |-->
-<!--| Open ID <br>Connect<br>(Auth0)          | 09.2017 - 01.2019<br>07.2020 - 04.2021 | 2                    |-->
-<!--| gRPC                                    | 12.2022 - now                          | 1.5                  |-->
-<!--| GraphQL                                 | 05.2021 - 09.2021                      | 0.5                  |-->
-<!--| **Tool**                                | **Time Periods**                       | **Years<br>overall** |-->
-<!--| Neovim                                  | 2020 - now                             | 4                    |-->
-<!--| VS 2022                                 | 04.2015 - 04.2021                      | 6                    |-->
-<!--| Jenkins                                 | 11.2020 - 04.2021                      | 0.5                  |-->
-<!--| Linux                                   | 2020 - now                             | ~4                   |-->
-
 ## Experience
 
 ### Readly AB (12.2022 - currently)
@@ -61,12 +30,10 @@ Tools used: Linux, (bash, grep, openssh, tmux), Bugsnag, Datadog, Docker, Git, G
 
 I was team leader / senior developer participating in various projects as well as internal Chessgrow.com development.
 
-| Project      | Description                                                                                                                                                                                  |
-| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Chessgrow    | Development of redesigned chessboard for Chessgrow puzzle sets.                                                                                                                              |
-| Callstream   | Project to design call center flows and manage users, numbers and other information. <br />**Tech stack**: Angular, NodeJS, Bootstrap, AWS Cognito, OAuth                                    |
-| Del'Art     | NFT market for physical art based on ethereum blockchain and custom smart-contracts. <br />**Tech stack**: React, Web3, Metamask, Solidity, NodeJS, Hasura, GraphQL, TailwindCSS, Bootstrap4 |
-| Brandtech.io | Marketing platform SaaS to track revenue of certain marketing campaing assets. <br /> **Tech stack**: React, Solidity, NodeJS, OpenAPI, TailwindCSS                                          |
+* Chessgrow - Development of redesigned chessboard for Chessgrow puzzle sets.                                                                                                                              
+* Callstream - Project to design call center flows and manage users, numbers and other information. **Tech stack**: Angular, NodeJS, Bootstrap, AWS Cognito, OAuth                                    
+* Del'Art - NFT market for physical art based on ethereum blockchain and custom smart-contracts. **Tech stack**: React, Web3, Metamask, Solidity, NodeJS, Hasura, GraphQL, TailwindCSS, Bootstrap4 
+* Brandtech.io - Marketing platform SaaS to track revenue of certain marketing campaing assets. **Tech stack**: React, Solidity, NodeJS, OpenAPI, TailwindCSS                                          
 
 Tools used: JetBrains Webstorm, Neovim, Git, Docker
 

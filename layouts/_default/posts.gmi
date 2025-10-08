@@ -1,8 +1,6 @@
-# {{ .Title }}
-
-{{ .RawContent}}
+{{ define "main" }}
 {{ range .Pages }}
-=> {{ .RelPermalink }} {{ .Title | plainify }}
+=> {{ .RelPermalink }} {{ .Title | plainify }} 
 {{- end }}
+{{ end }}
 
-{{ partial "footer.gmi" . }}
