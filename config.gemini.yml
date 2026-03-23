@@ -3,16 +3,11 @@ languageCode: 'en-us'
 title: "Mateusz Reszka's Personal Blog"
 theme: "mr"
 copyright: "This work is not licensed."
-author:
-  name: 'Mateusz Reszka'
-  email: 'mateusz@mateuszreszka.xyz'
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
 
 params:
+  author:
+    name: 'Mateusz Reszka'
+    email: 'mateusz@mateuszreszka.xyz'
   theme_config:
     appearance: "black"
     back_home_text: "Home"

@@ -1,34 +1,34 @@
 #!/bin/sh
 
-#copy-nginx() {
-#    echo "Copy NGINX config..."
-#    rsync -rvz --no-owner nginx $host:/etc/nginx/sites-available/mateuszreszka.xyz
-#    
-#    ssh debian@$host << EOF
-#        src=/etc/nginx/sites-available/mateuszreszka.xyz
-#	dest=/etc/nginx/sites-enabled/mateuszreszka.xyz
-#	if [ ! -f \$dest ]; then 
-#	    echo "Adding a new symlink..."
-#	    ln -s \$src \$dest
-#	fi
-#    EOF
-#}
+copy-nginx() {
+    echo "Copy NGINX config..."
+    rsync -rvz --no-owner nginx $host:/etc/nginx/sites-available/mateuszreszka.xyz
+    
+    ssh debian@$host << EOF
+src=/usr/local/etc/nginx/sites-available/mateuszreszka.xyz
+dest=/usr/local/etc/nginx/sites-enabled/mateuszreszka.xyz
+if [ ! -f \$dest ]; then 
+    echo "Adding a new symlink..."
+    ln -s \$src \$dest
+fi
+EOF
+}
 
 host=$1
 [ -z "$1" ] && echo "missing host" && exit 1
 
 set -xe
-rm -r public/
+rm -fr public/
 hugo
 echo "Copy html page..."
-rsync -crvz --no-perms --delete public/ $host:/var/www/mateuszreszka.xyz/html/
+rsync -crvz --no-perms --delete public/ $host:/usr/local/www/nginx/mateuszreszka-xyz/html/
 
-rm -r public/
-hugo --config config.gemini.yml
-echo "Copy gemini page..."
-rsync -crvz --no-perms --delete public/ $host:/var/gemini/
+#rm -fr public/
+#hugo --config config.gemini.yml
+#echo "Copy gemini page..."
+#rsync -crvz --no-perms --delete public/ $host:/var/gemini/
 
 # needed just once
-# copy-nginx
+[[ "$2" =~ "nginx" ]] && copy-nginx
 
 echo "All Done!"
